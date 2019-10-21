@@ -1,0 +1,29 @@
+{
+    "manifest_version": 2,
+    "name": "Achieve - quotes & beautiful images",
+    "description": "Archive is Chrome Extension. It delivers daily motivational quotes and beautiful images! That motivates you to do work!",
+    "version": "1.0",
+    "author": "Prathamesh More",
+
+    "browser_action": {
+        "default_title": "What is your main focus for taday?",
+        "default_icon" : "static/icons/icons64.png",
+        "default_popup" : "popup.html"
+    },
+
+    "chrome_url_overrides": {
+        "newtab": "index.html"
+    },
+
+    "icons" : {
+        "64" : "static/icons/icons64.png",
+        "32" : "static/icons/icons32.png",
+        "16" : "static/icons/icons16.png"
+    },
+
+    "permissions" : [
+        "activeTab",
+        "storage"
+    ]
+
+}
